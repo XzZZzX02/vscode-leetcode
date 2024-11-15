@@ -705,6 +705,12 @@
                         "default": true,
                         "scope": "application",
                         "description": "Allow LeetCode to report anonymous usage data to improve the product."
+                    },
+                    "leetcode.codeSnippets": {
+                        "type": "string",
+                        "default": "",
+                        "scope": "application",
+                        "description": "Custom code snippets for LeetCode problems."
                     }
                 }
             }
